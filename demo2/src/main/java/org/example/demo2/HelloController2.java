@@ -56,7 +56,7 @@ public class HelloController2 {
             Connection conn = DriverManager.getConnection(
                     "jdbc:postgresql://localhost:5432/PraktikumSQL", // Your DB URL
                     "postgres", // Your DB username
-                    "02/06/2007"  // Your DB password
+                    "......"  // Your DB password
             );
 
             String sql = "SELECT CONCAT(first_name, ' ', last_name) AS full_name, " +
