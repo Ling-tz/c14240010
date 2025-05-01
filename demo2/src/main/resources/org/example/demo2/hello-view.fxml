@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="403.0" prefWidth="942.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.demo2.HelloController">
+   <children>
+      <TableView fx:id="addTableView" layoutX="-1.0" prefHeight="403.0" prefWidth="942.0">
+        <columns>
+          <TableColumn fx:id="addEmployee" prefWidth="105.59997254610062" text="employee_id" />
+          <TableColumn fx:id="addFirstName" prefWidth="96.0" text="first_name " />
+            <TableColumn fx:id="addLastName" minWidth="0.0" prefWidth="105.59999084472656" text="last_name" />
+            <TableColumn fx:id="addEmail" prefWidth="66.4000244140625" text="email" />
+            <TableColumn fx:id="addNomor" prefWidth="104.0" text="phone_number" />
+            <TableColumn fx:id="addHire" prefWidth="71.199951171875" text="hire_date" />
+            <TableColumn fx:id="addJob" prefWidth="58.4000244140625" text="job_id" />
+            <TableColumn fx:id="addSalary" prefWidth="47.20001220703125" text="salary" />
+            <TableColumn fx:id="addCom" prefWidth="111.2000732421875" text="commission_pct" />
+            <TableColumn fx:id="addManager" prefWidth="83.2000732421875" text="manager_id" />
+            <TableColumn fx:id="addDepartment" prefWidth="92.7999267578125" text="department_id" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
