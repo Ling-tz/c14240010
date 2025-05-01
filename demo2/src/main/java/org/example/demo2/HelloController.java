@@ -75,7 +75,7 @@ public class HelloController {
             Connection conn = DriverManager.getConnection(
                     "jdbc:postgresql://localhost:5432/PraktikumSQL",
                     "postgres",
-                    "02/06/2007"
+                    "......"
             );
 
             String sql = "SELECT * FROM employees";
